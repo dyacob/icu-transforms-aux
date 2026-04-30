@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!--
+Copyright © 1991-2019 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html
+-->
+<supplementalData>
+	<version number="$Revision$"/>
+	<transforms>
+		<transform source="so_Latn" target="so_Osma" direction="both" draft="contributed" alias="so-Latn-t-so-Osma" backwardAlias="so-Osma-m0-so-Latn">
+			<tRule><![CDATA[
+:: [a-zA-Z] ;
+
+#
+# Digraphs
+#
+dh ↔ 𐒊 ;
+kh ↔ 𐒅 ;
+sh ↔ 𐒉 ;
+#
+# Consonants
+#
+ʼ ↔ 𐒀 ;
+b ↔ 𐒁 ;
+t ↔ 𐒂 ;
+j ↔ 𐒃 ;
+x ↔ 𐒄 ;
+d ↔ 𐒆 ;
+r ↔ 𐒇 ;
+s ↔ 𐒈 ;
+c ↔ 𐒋 ;
+g ↔ 𐒌 ;
+f ↔ 𐒍 ;
+q ↔ 𐒎 ;
+k ↔ 𐒏 ;
+l ↔ 𐒐 ;
+m ↔ 𐒑 ;
+n ↔ 𐒒 ;
+w ↔ 𐒓 ;
+h ↔ 𐒔 ;
+y ↔ 𐒕 ;
+#
+# Uppercase, forward only
+#
+B → 𐒁 ;
+T → 𐒂 ;
+J → 𐒃 ;
+X → 𐒄 ;
+D → 𐒆 ;
+R → 𐒇 ;
+S → 𐒈 ;
+C → 𐒋 ;
+G → 𐒌 ;
+F → 𐒍 ;
+Q → 𐒎 ;
+K → 𐒏 ;
+L → 𐒐 ;
+M → 𐒑 ;
+N → 𐒒 ;
+W → 𐒓 ;
+H → 𐒔 ;
+Y → 𐒕 ;
+#
+# Vowels
+#
+aa ↔ 𐒛 ;
+a ↔ 𐒖 ;
+ee ↔ 𐒜 ;
+e ↔ 𐒗 ;
+ii ↔ 𐒕 ;
+i ↔ 𐒘 ;
+uu ↔ 𐒓 ;
+u ↔ 𐒚 ;
+oo ↔ 𐒝 ;
+o ↔ 𐒙 ;
+#
+# Uppercase, forward only
+#
+A[Aa] → 𐒛 ;
+A → 𐒖 ;
+E[Ee] → 𐒜 ;
+E → 𐒗 ;
+I[Ii] → 𐒕 ;
+I → 𐒘 ;
+U[Uu] → 𐒓 ;
+U → 𐒚 ;
+O[Oo] → 𐒝 ;
+O → 𐒙 ;
+#
+# Numbers
+#
+0 ↔ 𐒠 ;
+1 ↔ 𐒡 ;
+2 ↔ 𐒢 ;
+3 ↔ 𐒣 ;
+4 ↔ 𐒤 ;
+5 ↔ 𐒥 ;
+6 ↔ 𐒦 ;
+7 ↔ 𐒧 ;
+8 ↔ 𐒨 ;
+9 ↔ 𐒩 ;
+:: ([𐒀-𐒩]) ;
+
+			]]></tRule>
+		</transform>
+	</transforms>
+</supplementalData>

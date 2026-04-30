@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!--
+Copyright © 1991-2019 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html
+-->
+<supplementalData>
+	<version number="$Revision$"/>
+	<transforms>
+		<transform source="ny_Latn" target="d0-mwangwego" direction="forward" draft="contributed" alias="ny-Latn-t-d0-mwangwego" backwardAlias="ny-Latn-s0-mwanwego">
+			<tRule><![CDATA[
+:: [a-zA-Z] ;
+
+$b = 󰀁 ;
+$ch = 󰀂 ;
+$d = 󰀃 ;
+$f = 󰀄 ;
+$g = 󰀅 ;
+$gh = 󰀆 ;
+$h = 󰀇 ;
+$j = 󰀈 ;
+# $j = 󰀉 ; $ “j” when sounding like “zh”
+$k = 󰀊 ;
+$l = 󰀋 ;
+$m = 󰀌 ;
+$n = 󰀍 ;
+$p = 󰀏 ;
+$q = 󰀞 ;
+$r = 󰀐 ;
+$s = 󰀑 ;
+$sh = 󰀒 ;
+$t = 󰀓 ;
+$ts = 󰀔 ;
+$v = 󰀖 ;
+$w = 󰀗 ;
+$x = 󰀝 ;
+$y = 󰀘 ;
+$z = 󰀙 ;
+
+$ph = 󰀕 ;
+$th = 󰀟 ;
+$ny = 󰀎 ;
+$dz = 󰀚 ;
+$ps = 󰀕 ;
+
+$dhl = 󰀛 ;
+$hl = 󰀜 ;
+
+
+$emwa = 󰀠 ;
+$ima = 󰀡 ;
+$ota = 󰀢 ;
+$uyu = 󰀣 ;
+
+$vSiri = [Aa] ;
+$vEmwa = [Ee] ;
+$vIma = [Ii] ;
+$vOta = [Oo] ;
+$vUyu = [Uu] ;
+
+
+[Bb] $vSiri → $b ;
+[Bb] $vEmwa → $b $emwa ;
+[Bb] $vIma → $b $ima ;
+[Bb] $vOta → $b $ota ;
+[Bb] $vUyu → $b $uyu ;
+
+[Cc] $vSiri → $ch ;
+[Cc] $vEmwa → $ch $emwa ;
+[Cc] $vIma → $ch $ima ;
+[Cc] $vOta → $ch $ota ;
+[Cc] $vUyu → $ch $uyu ;
+
+[Dd] $vSiri → $d ;
+[Dd] $vEmwa → $d $emwa ;
+[Dd] $vIma → $d $ima ;
+[Dd] $vOta → $d $ota ;
+[Dd] $vUyu → $d $uyu ;
+
+[Ff] $vSiri → $f ;
+[Ff] $vEmwa → $f $emwa ;
+[Ff] $vIma → $f $ima ;
+[Ff] $vOta → $f $ota ;
+[Ff] $vUyu → $f $uyu ;
+
+[Gg] $vSiri → 󰀁 ;
+[Gg] $vEmwa →  $emwa ;
+[Gg] $vIma →  $ima ;
+[Gg] $vOta →  $ota ;
+[Gg] $vUyu →  $uyu ;
+
+[Hh] $vSiri → 󰀁 ;
+[Hh] $vEmwa →  $emwa ;
+[Hh] $vIma →  $ima ;
+[Hh] $vOta →  $ota ;
+[Hh] $vUyu →  $uyu ;
+
+[Jj] $vSiri → 󰀁 ;
+[Jj] $vEmwa →  $emwa ;
+[Jj] $vIma →  $ima ;
+[Jj] $vOta →  $ota ;
+[Jj] $vUyu →  $uyu ;
+
+[Kk] $vSiri → 󰀁 ;
+[Kk] $vEmwa →  $emwa ;
+[Kk] $vIma →  $ima ;
+[Kk] $vOta →  $ota ;
+[Kk] $vUyu →  $uyu ;
+
+[Ll] $vSiri → 󰀁 ;
+[Ll] $vEmwa →  $emwa ;
+[Ll] $vIma →  $ima ;
+[Ll] $vOta →  $ota ;
+[Ll] $vUyu →  $uyu ;
+
+[Mm] $vSiri → 󰀁 ;
+[Mm] $vEmwa →  $emwa ;
+[Mm] $vIma →  $ima ;
+[Mm] $vOta →  $ota ;
+[Mm] $vUyu →  $uyu ;
+
+[Nn] $vSiri → 󰀁 ;
+[Nn] $vEmwa →  $emwa ;
+[Nn] $vIma →  $ima ;
+[Nn] $vOta →  $ota ;
+[Nn] $vUyu →  $uyu ;
+
+[Pp] $vSiri → 󰀁 ;
+[Pp] $vEmwa →  $emwa ;
+[Pp] $vIma →  $ima ;
+[Pp] $vOta →  $ota ;
+[Pp] $vUyu →  $uyu ;
+
+[Rr] $vSiri → 󰀁 ;
+[Rr] $vEmwa →  $emwa ;
+[Rr] $vIma →  $ima ;
+[Rr] $vOta →  $ota ;
+[Rr] $vUyu →  $uyu ;
+
+[Ss] $vSiri → 󰀁 ;
+[Ss] $vEmwa →  $emwa ;
+[Ss] $vIma →  $ima ;
+[Ss] $vOta →  $ota ;
+[Ss] $vUyu →  $uyu ;
+
+[Tt] $vSiri → 󰀁 ;
+[Tt] $vEmwa →  $emwa ;
+[Tt] $vIma →  $ima ;
+[Tt] $vOta →  $ota ;
+[Tt] $vUyu →  $uyu ;
+
+[Vv] $vSiri → 󰀁 ;
+[Vv] $vEmwa →  $emwa ;
+[Vv] $vIma →  $ima ;
+[Vv] $vOta →  $ota ;
+[Vv] $vUyu →  $uyu ;
+
+[Ww] $vSiri → 󰀁 ;
+[Ww] $vEmwa →  $emwa ;
+[Ww] $vIma →  $ima ;
+[Ww] $vOta →  $ota ;
+[Ww] $vUyu →  $uyu ;
+
+[Yy] $vSiri → 󰀁 ;
+[Yy] $vEmwa →  $emwa ;
+[Yy] $vIma →  $ima ;
+[Yy] $vOta →  $ota ;
+[Yy] $vUyu →  $uyu ;
+
+[Zz] $vSiri → $z ;
+[Zz] $vEmwa → $z $emwa ;
+[Zz] $vIma → $z $ima ;
+[Zz] $vOta → $z $ota ;
+[Zz] $vUyu → $z $uyu ;
+
+:: ([\uF0000-\uF003F]) ;
+			]]></tRule>
+		</transform>
+	</transforms>
+</supplementalData>

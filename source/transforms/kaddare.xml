@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!--
+Copyright © 1991-2019 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html
+-->
+<supplementalData>
+	<version number="$Revision$"/>
+	<transforms>
+		<transform source="so_Latn" target="so_Kadd" direction="both" draft="contributed" alias="so-Latn-t-so-Kadd" backwardAlias="so-Kadd-m0-so-Latn">
+			<tRule><![CDATA[
+:: [a-zA-Z] ;
+ ↔ B;
+ ↔ T;
+ ↔ J;
+ ↔ X;
+ → Dh;
+ ← D [Hh];
+ ↔ D;
+ ↔ R;
+ → Sh;
+ ← S [Hh];
+ ↔ S;
+ ↔ C;
+ ↔ G;
+ ↔ F;
+ ↔ Q;
+ → Kh;
+ ← K [Hh];
+ ↔ K;
+ ↔ L;
+ ↔ M;
+ ↔ N;
+ ↔ W;
+ ↔ H;
+ ↔ Y;
+ ↔ A;
+ ↔ E;
+ ↔ I;
+ ↔ O;
+ ↔ U;
+ ↔ b;
+ ↔ t;
+ ↔ j;
+ ↔ x;
+ ↔ dh;
+ ↔ d;
+ ↔ r;
+ ↔ sh;
+ ↔ s;
+ ↔ c;
+ ↔ g;
+ ↔ f;
+ ↔ q;
+ ↔ kh;
+ ↔ k;
+ ↔ l;
+ ↔ m;
+ ↔ n;
+ ↔ w;
+ ↔ h;
+ ↔ y;
+ ↔ a;
+ ↔ e;
+ ↔ i;
+ ↔ o;
+ ↔ u;
+:: ([-]) ;
+# :: ([\xE000-\xE039]) ;
+
+			]]></tRule>
+		</transform>
+	</transforms>
+</supplementalData>
